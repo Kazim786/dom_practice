@@ -36,6 +36,7 @@ const h1 = document.querySelector("h1");
 
 const liSpecial = document.querySelector("li.special") //selects first li with class of special
 
+//descendant syntax
 const nestedSpecial = document.querySelector('section ul li.special')
 
 //attribute selector syntax

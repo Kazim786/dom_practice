@@ -28,16 +28,27 @@ for(let input of inputs){console.log(input.value)}
 
 // ul.getElementsByClassName("special");
 
-// QuerySelector
+// QuerySelector ******
 
-const h1 = document.querySelector("h1");
+// const h1 = document.querySelector("h1");
 
 
 
-const liSpecial = document.querySelector("li.special") //selects first li with class of special
+// const liSpecial = document.querySelector("li.special") //selects first li with class of special
 
-//descendant syntax
-const nestedSpecial = document.querySelector('section ul li.special')
+// //descendant syntax
+// const nestedSpecial = document.querySelector('section ul li.special')
 
-//attribute selector syntax
-const passwordInput = document.querySelector('input[type="password"]')
+// //attribute selector syntax
+// const passwordInput = document.querySelector('input[type="password"]')
+
+//innerHTML 
+
+//Allows you to modify the way your web page looks using html tags. I.e <bold></bold> tags.
+//This is opposed to what the innerText does. innerText will make into a string anything that you put into it and displays it into the web page
+
+//textContent 
+//Displays the way the web page looks like in the HTML document.
+
+//innerText
+//innerText displays in the console how the innerText looks like in the browser. As opposed to textContent which shows how it looks like in the html file

@@ -52,3 +52,18 @@ for(let input of inputs){console.log(input.value)}
 
 //innerText
 //innerText displays in the console how the innerText looks like in the browser. As opposed to textContent which shows how it looks like in the html file
+
+//Get & Set 
+
+// const range = document.querySelector("input[type='range']");
+
+// range.getAttribute("min")
+
+// range.getAttribute("max")
+
+//for set you need 2 arguments. 1 will be the attribute you want to change. The other is the value you want to change it to.
+// range.setAttribute("min", '-500')
+
+//example 2
+
+// range.setAttribute("type", "radio")

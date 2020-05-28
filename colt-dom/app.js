@@ -24,6 +24,19 @@ for(let input of inputs){console.log(input.value)}
 
 // for(let specials of special){console.log(special)};
 
-const ul = document.getElementsByTagName("ul")[0] //You have 2 Ul's. You forgot to put the [0] hence code was not working initially.
+// const ul = document.getElementsByTagName("ul")[0] //You have 2 Ul's. You forgot to put the [0] hence code was not working initially.
 
-ul.getElementsByClassName("special");
+// ul.getElementsByClassName("special");
+
+// QuerySelector
+
+const h1 = document.querySelector("h1");
+
+
+
+const liSpecial = document.querySelector("li.special") //selects first li with class of special
+
+const nestedSpecial = document.querySelector('section ul li.special')
+
+//attribute selector syntax
+const passwordInput = document.querySelector('input[type="password"]')

@@ -103,10 +103,10 @@ for(let input of inputs){console.log(input.value)}
 
 //ALTERING STYLES ***************
 
-// const allLis = document.querySelectorAll("li")
+// const allLis = document.querySelectorAll("li") //dont forget this is an array. Hence forEach loop works on it
 // const colors = ['red', 'orange', 'green', 'purple', 'blue', 'yellow'];
 
-// allLis.forEach((li, i) => {
+// allLis.forEach((li, i) => { //even tho you have 2 arrays, one is the color one and the other is the li. The one you will make changes to is the one you attach to the forEach
 //     const color = colors[i];
 //     li.style.color = color;
 

@@ -114,6 +114,29 @@ for(let input of inputs){console.log(input.value)}
 
 //ALTERING STYLES (BETTER WAY):
 
-const li = document.querySelector('li')
+// const li = document.querySelector('li')
 
-const styles = getComputedStyle(li) //This will show all current CSS properties. Which is something the previous method did not do 
+// const styles = getComputedStyle(li) //This will show all current CSS properties. Which is something the previous method did not do 
+
+const todo = document.querySelector('#todos .todo')
+
+// todo.style.color = 'gray'
+// todo.style.textDecoration = 'line-through'
+// todo.style.opacity = '50%'
+
+todo.getAttribute('class')
+
+// todo.setAttribute('class', 'todo done'); //if we put 'done' alone the styling from the todo class goes away. So we have to put both classes.
+//This isnt really a good way to do this.
+
+//Better way:
+
+// todo.classList.remove('done') 
+
+//or
+
+// todo.classList.add('done')
+
+//An even better way is toggle. If a class is there it will be removed. If a class isnt there it will be added
+
+// todo.classList.toggle('done')

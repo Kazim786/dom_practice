@@ -111,3 +111,9 @@ for(let input of inputs){console.log(input.value)}
 //     li.style.color = color;
 
 // })
+
+//ALTERING STYLES (BETTER WAY):
+
+const li = document.querySelector('li')
+
+const styles = getComputedStyle(li) //This will show all current CSS properties. Which is something the previous method did not do 

@@ -1,3 +1,5 @@
+import { link } from "fs";
+
 // To select the element with id of bear-photo:
 document.getElementById('bear-photo')
 
@@ -67,3 +69,34 @@ for(let input of inputs){console.log(input.value)}
 //example 2
 
 // range.setAttribute("type", "radio")
+
+//Parent, Children, Sibling Elements:
+
+//parent:
+// var firstLi = document.querySelector('li');
+// firstLi.parentElement;
+
+//Children:
+// const ul = document.querySelector('ul')
+// ul.children
+
+//Next and previous siblings:
+
+// var firstLi = document.querySelector('li');
+// firstLi.nextElementSibling
+
+//Changing Multiple Elements
+
+// const allLis = document.querySelectorAll('li')
+
+// for(let i = 0; i < allLis.length; i++){
+//     allLis[i].innerText = "We are the champions"
+// }
+
+// or we can use a 'for of' loop
+
+// for (let li of allLis){
+//     li.innerHTML = 'WE ARE <b> The champs</b>'
+// }
+
+//You could have used innerText again but we wanted to style with HTML tags so we used innerHTML method

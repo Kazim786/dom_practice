@@ -100,3 +100,14 @@ for(let input of inputs){console.log(input.value)}
 // }
 
 //You could have used innerText again but we wanted to style with HTML tags so we used innerHTML method
+
+//ALTERING STYLES ***************
+
+// const allLis = document.querySelectorAll("li")
+// const colors = ['red', 'orange', 'green', 'purple', 'blue', 'yellow'];
+
+// allLis.forEach((li, i) => {
+//     const color = colors[i];
+//     li.style.color = color;
+
+// })

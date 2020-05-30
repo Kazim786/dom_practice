@@ -3,6 +3,8 @@ var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
 var li = document.getElementsByTagName("li");
 
+const body = document.querySelector('body')
+
 var deleter = document.createElement("button");
 deleter.name = "deleter"
 deleter.style.color = "black"
@@ -37,6 +39,16 @@ function addListAfterKeypress(event) {
 	}
 }
 
+// function lineThrough(){
+// 	li.classList.toggle('done')
+// }
+
+// function lineThrough(){
+// 	li.forEach(function(li){
+// 	li.classList.toggle('done')
+// })}
+
+// li.addEventListener("click", lineThrough);
 
 button.addEventListener("click", addListAfterClick);
 

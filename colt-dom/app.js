@@ -140,3 +140,13 @@ todo.getAttribute('class')
 //An even better way is toggle. If a class is there it will be removed. If a class isnt there it will be added
 
 // todo.classList.toggle('done')
+
+// const div = document.createElement('div');
+// div.className = 'foo';
+
+// // our starting state: <div class="foo"></div>
+// console.log(div.outerHTML);
+
+// // use the classList API to remove and add classes
+// div.classList.remove("foo");
+// div.classList.add("anotherclass");

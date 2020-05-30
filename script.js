@@ -1,3 +1,5 @@
+
+
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
@@ -44,11 +46,22 @@ function addListAfterKeypress(event) {
 // }
 
 // function lineThrough(){
-// 	li.forEach(function(li){
-// 	li.classList.toggle('done')
+// 	body.forEach(function(body){
+// 	body.classList.toggle('done')
 // })}
 
-// li.addEventListener("click", lineThrough);
+
+//so no li that is already marked off can be marked off again
+//keep getting error that li.addEventListener is not a function
+// li.addEventListener("click", function(){
+// 	if (li.classList.toggle('done') = true){
+// 		return //to break out of conditional
+// 	} else{
+// 		body.classList.toggle('done')
+// 	}
+// });
+
+//if click returns true then line through
 
 button.addEventListener("click", addListAfterClick);
 

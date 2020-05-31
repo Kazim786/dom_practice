@@ -14,7 +14,8 @@ h3.style.color = 'blue';
 
 h3.innerText = "I'm a blue h3"
 
-const divBG = document.createElement('div');
+// const divBG = document.createElement('div');
+const divBG = document.querySelector('.second')
 
 divBG.style.borderColor = "black";
 divBG.style.backgroundColor = "pink";
@@ -25,6 +26,9 @@ anotherH1.innerHTML = "I'm in a div";
 const anotherP = document.createElement('p');
 anotherP.innerHTML = "ME TOO"
 
-divBG.appendChild("anotherH1");
-divBG.appendChild('anotherP');
-div.appendChild('divBG')
+function foo(){
+// div.append(divBG) //for some reason this didnt work so I had to physicaly add the div in the html file
+divBG.append(anotherH1);
+divBG.append(anotherP);
+}
+// div.append('divBG')
